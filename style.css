@@ -91,6 +91,7 @@ a:link{
     display: flex;
   margin-bottom: 2px;
     border-radius: 7px;     
+    height: 125px;
 }
 p{
     font-size: x-large;
@@ -120,31 +121,12 @@ p{
 a:hover{
     color: darkred;
 }
-.vkopvertejums{
+.div5{
+    align-items: center;
+    border: 4px solid darkred;
+    width: 100vw;
     display: flex;
-   position: relative;
-   left: 1200px;
-   bottom: 140px;
-   text-align: center;
-   justify-items: center;
-   justify-content: center;
-   
-}
-.kopvertejums{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 900px;
-    font-weight: bold;
-    font-size: large;
-    gap: 30px;
-    top: 15px;
-}
-.kko{
-    display: flex;
-    flex-direction: column;
-}
-.re{
-    display: flex;
-    flex-direction: column;
+  margin-bottom: 2px;
+    border-radius: 7px;
+        
 }
